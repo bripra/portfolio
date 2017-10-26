@@ -1,0 +1,301 @@
+a:visited {
+    text-decoration: none;
+    color: black;
+    
+  }
+
+a:hover {
+  font-size: 2em;
+  box-shadow: 0 0 10px 8px;
+  color: limegreen;
+    
+  }
+a.sm:hover{
+  
+  color: transparent;
+}
+
+body{
+  font-family: sans-serif;
+  
+}
+  
+  header{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /*background-image: url('../images/banner_Duck1.jpg');*/
+    
+    
+  }
+
+nav{
+  
+  border: 4px solid Royalblue;
+    border-radius: 20px;
+    padding: 1%
+  
+}
+  
+
+  article {
+    width: 50%;
+    margin: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 1% ;
+    margin-bottom: 1%;
+        
+  }
+
+/* To use with .down-triangle as last article in section*/
+article.bottom {
+    width: 50%;
+    margin: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 1% ;
+   /* margin-bottom: 1%;*/
+        
+  }
+
+
+  
+  footer {
+    width: 95%;
+    margin: auto;
+    border:2px solid green;
+    border-radius: 20px;
+    padding: 1%;
+    position: absolute;
+    
+  }
+
+h1{
+  
+  text-align: center
+  
+}
+
+h3{
+  
+  text-decoration: underline;
+  text-shadow: 1px 2px limegreen; 
+  color: darkgreen;
+  
+}
+
+p::first-letter{
+  font-size: 2em;
+  color: red;
+  
+  
+}
+
+
+/* For social media badges*/
+
+img.sm {
+  width: 2%
+}
+
+img.sm:hover{
+  
+  
+}
+
+/* Banner Image */
+img.banner {
+  
+  width: 99%;
+  
+}
+
+/* Thumbnail images on the happy little page*/
+img.happy{
+  
+  width: 10%;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 2px;
+  
+}
+
+img.happy:hover {
+  
+  box-shadow: 0 0 10px 8px;
+  color: limegreen;
+  
+}
+
+
+.up-triangle{
+  
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 480px solid transparent;
+  border-right: 480px solid transparent;
+  border-bottom: 50px solid green;
+  margin-top: 1%
+  
+    
+}
+
+.down-triangle{
+  
+ margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 480px solid transparent;
+  border-right: 480px solid transparent;
+  border-top: 50px solid green;
+  
+  
+  
+}
+
+
+/****************************************Zombie page CSS****************************************/
+
+img.banner_z {
+  
+  width: 50%;
+  height: 50%;
+  
+  
+}
+
+
+body.z{
+  
+  background-color: black;
+  color: red;
+  
+}
+
+a:visited.z {
+    text-decoration: none;
+    color: red;
+    
+  }
+
+a:hover.z {
+  font-size: 2em;
+  box-shadow: 0 0 10px 8px;
+  color: orangered;
+    
+  }
+
+nav.z{
+  
+  border: 4px solid red;
+    border-radius: 20px;
+    padding: 1%
+  
+}
+  
+
+  article.z {
+    width: 50%;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 1% ;
+    margin-bottom: 1%;
+        
+  }
+
+/* To use with .down-triangle as last article in section*/
+article.bottom.z {
+    width: 50%;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 1% ;
+   /* margin-bottom: 1%;*/
+        
+  }
+
+
+  
+  footer {
+    width: 95%;
+    margin: auto;
+    border:2px solid green;
+    border-radius: 20px;
+    padding: 1%;
+    position: absolute;
+    
+  }
+
+h3.zombie{
+  
+  text-decoration: underline;
+  text-shadow: 1px 2px #660000; 
+  color: #cc0000;
+  
+}
+
+.up-triangle_z{
+  
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 480px solid transparent;
+  border-right: 480px solid transparent;
+  border-bottom: 50px solid red;
+  margin-top: 1%
+  
+    
+}
+
+.down-triangle_z{
+  
+ margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 480px solid transparent;
+  border-right: 480px solid transparent;
+  border-top: 50px solid red;
+  
+  
+}
+
+
+
+/* Thumbnail images below the p in article*/
+img.z{
+  
+  width: 10%;
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 2px;
+  
+}
+
+img.z:hover {
+  
+  box-shadow: 0 0 10px 8px;
+  color: red;
+  
+}
+
+h3.z{
+  
+  text-decoration: underline;
+  text-shadow: 1px 2px limegreen; 
+  color: darkgreen;
+  
+}
+
+footer.z {
+    width: 95%;
+    margin: auto;
+    border:2px solid red;
+    border-radius: 20px;
+    padding: 1%;
+    position: absolute;
+    
+  }
+
