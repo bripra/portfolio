@@ -1,8 +1,12 @@
+
+
+
 a:visited {
     text-decoration: none;
     color: black;
     
   }
+
 
 a:hover {
   font-size: 2em;
@@ -12,33 +16,56 @@ a:hover {
   }
 a.sm:hover{
   
-  color: transparent;
+  color: purple;
 }
 
 body{
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
+  font-family: 'Ubuntu', sans-serif; /*Google font*/
   
 }
   
   header{
-    width: 100%;
-    height: 100%;
+    width: 98vw;
     margin: auto;
-    /*background-image: url('../images/banner_Duck1.jpg');*/
+    
     
     
   }
+header img{
+  
+  display: block;
+  width: 50vw;
+  height: 25vh;
+  margin: auto;
+  /*align-content: center;*/
+  
+  
+}
 
 nav{
   
   border: 4px solid Royalblue;
     border-radius: 20px;
-    padding: 1%
+    padding: 1%;
+  font-size: 1.5em;
+  
+}
+
+
+footer nav{
+  
+  border: 0px solid #32CD32;
+   /* border-radius: 20px;*/
+    padding: 1%;
+  width: 50%;
+  font-size: .85em;
   
 }
   
 
   article {
+    
     width: 50%;
     margin: auto;
     border: 2px solid green;
@@ -60,14 +87,16 @@ article.bottom {
   }
 
 
+
   
   footer {
-    width: 95%;
+    width: 50vw;
     margin: auto;
     border:2px solid green;
     border-radius: 20px;
     padding: 1%;
     position: absolute;
+    
     
   }
 
@@ -93,16 +122,18 @@ p::first-letter{
 }
 
 
-/* For social media badges*/
+/* For social media badges
 
 img.sm {
-  width: 2%
+  width: 7%
 }
 
 img.sm:hover{
   
   
 }
+*/
+
 
 /* Banner Image */
 img.banner {
@@ -128,6 +159,11 @@ img.happy:hover {
   
 }
 
+img.angel {
+  
+  width: 99%;
+  
+}
 
 .up-triangle{
   
