@@ -1,0 +1,53 @@
+body{
+  padding-left: 2%;
+  
+}
+
+form {
+  
+  padding-bottom: 10%;
+}
+
+label {
+    display:block;
+    margin-top: .85%;
+    font-family: serif;
+    
+}
+      input[type=submit] {
+        
+        background-color: green;
+        border-color: black;
+        border-radius: 15%;
+        padding: .75%;
+        font-size: 1.5em;
+        margin-top: 5%;
+        
+      }
+      
+           
+      input:focus {
+        
+        border-color: green;
+        background-color: lime;
+      }
+      
+      textarea{
+        
+        display:block;
+      }
+      
+      textarea:focus {
+        
+        background-color: lime;
+        border-color: green;
+      }
+      
+            
+      header img {
+        
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+         
+      }
